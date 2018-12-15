@@ -82,7 +82,8 @@ BOARDS = atlys \
 	or1ksim-uart \
 	ordb1a3pe1500 \
 	ordb2a \
-	orpsocrefdesign
+	orpsocrefdesign \
+	simple1M
 
 BOARD_LIBS = $(addprefix libboard-,$(addsuffix .a,$(BOARDS)))
 BOARD_OBJS = $(addprefix libboard-,$(addsuffix .o,$(BOARDS)))
